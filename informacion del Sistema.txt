@@ -1,0 +1,32 @@
+Este mini Sistema llamado RUWER  fue hecho para realizar publicaciones de Noticias para mini empresas o INstituciones educativas, También puede ser
+utilizado como para un block personal, similiar a un CMS que existe en la WEB.
+
+Cuenta con un BackEnd para los administradores:
+	http://localhost/noticias/admin/production/login.php
+Y un FrontEnd para los visitantes:
+	http://localhost/noticias/
+Base de Datos: 
+	noticias.sql (en el directorio raiz del sistio)
+
+
+Fue hecho 100% a mano, es decir, no se necesito algú tipo de FRAMEWORK para su contrucción, si se utilizó una plantilla base para una mejor
+apariencia.
+
+La tecnologías utilizadas fueron: HTML5, CSS3, JavaScript, Bootstrap, PHP-PDO y como moto de BD MySQL.
+
+Cuenta como secciones básicas para publicar contenidos y también paa publicar archivos PDF.
+
+También cuenta con nivel de admistración de Usuarios, para darle mayor interactividad y complejidad al sitio.
+
+puedes loguearte utilizando:
+usuario: joselo
+password: carapegua19
+
+
+OJO, si decides crear un nuevo usuario no te olvides de tu contraseña, ya que todas las contraseñas guardadas son 
+encriptadas para seguridad de los usuarios, ni el administrador principal podrá saberlo..
+
+Espero que te sirva de algo si así como yo estas iniciando en este mundo facinante de la programación WEB y si
+estas buscando realizar algo similar a RUWER..
+
+Abrazo.. Joselo Weber...

@@ -1,0 +1,51 @@
+.thumbnail {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#preview {
+    position: relative;
+}
+
+#preview a {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    display: none;
+}
+
+/*nombre de la imagen subida*/
+#file-info {
+    text-align: center;
+    display: block;
+}
+
+/*para ocultar el input de la imagen de portada*/
+#portada input[type=file] {
+    position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -9999;
+}
+
+/*para el boton de las imagenes adicionales*/
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}

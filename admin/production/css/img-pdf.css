@@ -1,0 +1,31 @@
+.thumbnail {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#preview-pdf {
+    position: relative;
+}
+
+#preview-pdf a {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    display: none;
+}
+
+/*nombre de la imagen subida*/
+#file-info-pdf {
+    text-align: center;
+    display: block;
+}
+
+/*para ocultar el input de la imagen de portada*/
+#portada-pdf input[type=file] {
+    position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -9999;
+}

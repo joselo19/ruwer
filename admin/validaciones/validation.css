@@ -1,0 +1,14 @@
+input.error{
+    background: #FAEDEC;
+    border: 1px solid #E85445;
+}
+
+select.error{
+    background: #FAEDEC;
+    border: 1px solid #E85445;
+}
+
+label.error{
+    color: #E85445;
+}
+                    
